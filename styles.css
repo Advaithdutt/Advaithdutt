@@ -1,0 +1,104 @@
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #35424ab8;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.header .button {
+  background: #e8491d;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.header .button:hover {
+  background: #cf3e14;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #35424a;
+  margin-bottom: 20px;
+}
+
+.service, .package, .groomer, .location, .faq-item, .testimonial {
+  margin: 20px 0;
+  text-align: center;
+}
+
+img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service img, .package img, .groomer img, .location img, .testimonial img {
+  width: 250px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background: #35424a;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer .button {
+  background: #e8491d;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.footer .button:hover {
+  background: #cf3e14;
+}
+
+
